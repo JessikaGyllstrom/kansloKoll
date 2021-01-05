@@ -30,7 +30,7 @@
                                     <segue destination="81r-QH-NNf" kind="presentation" id="acc-e9-cYR"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="TUV-LP-MqJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy2" translatesAutoresizingMaskIntoConstraints="NO" id="TUV-LP-MqJ">
                                 <rect key="frame" x="38" y="200" width="338" height="352"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yK-y9-rfd">
@@ -58,11 +58,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled (55)" translatesAutoresizingMaskIntoConstraints="NO" id="7Eq-2B-phe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="masks" translatesAutoresizingMaskIntoConstraints="NO" id="7Eq-2B-phe">
                                 <rect key="frame" x="55.5" y="615" width="65.5" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled (56)" translatesAutoresizingMaskIntoConstraints="NO" id="oKh-aL-ULT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rubicscube" translatesAutoresizingMaskIntoConstraints="NO" id="oKh-aL-ULT">
                                 <rect key="frame" x="55" y="740" width="83" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -305,7 +305,7 @@
         <!--Expression View Controller-->
         <scene sceneID="NJT-bn-UER">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="rxe-xB-Zdb" customClass="ExpressionViewController" customModule="ka_nsloKoll" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="rxe-xB-Zdb" customClass="ExpressionViewController" customModule="kansloKoll" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MqR-3p-lTB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -497,7 +497,7 @@
         <!--Winner2 View Controller-->
         <scene sceneID="MbU-ei-bQd">
             <objects>
-                <viewController storyboardIdentifier="winner2" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fED-bd-RM8" customClass="Winner2ViewController" customModule="ka_nsloKoll" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="winner2" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fED-bd-RM8" customClass="Winner2ViewController" customModule="kansloKoll" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kcw-6V-thP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -553,8 +553,6 @@
         <segue reference="075-uU-xhf"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Untitled (55)" width="600" height="600"/>
-        <image name="Untitled (56)" width="600" height="600"/>
         <image name="arg" width="600" height="600"/>
         <image name="arg2" width="1000" height="1000"/>
         <image name="förvånad" width="600" height="600"/>
@@ -563,12 +561,14 @@
         <image name="förvirrad2" width="500" height="500"/>
         <image name="glad" width="600" height="600"/>
         <image name="glad2" width="1000" height="1000"/>
-        <image name="happy" width="200" height="200"/>
+        <image name="happy2" width="333" height="333"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="ledsen" width="600" height="600"/>
         <image name="ledsen2" width="1000" height="1000"/>
         <image name="lugn" width="600" height="600"/>
         <image name="lugn2" width="500" height="500"/>
+        <image name="masks" width="200" height="200"/>
+        <image name="rubicscube" width="200" height="200"/>
         <image name="sjuk" width="600" height="600"/>
         <image name="sjuk2" width="500" height="500"/>
         <image name="stars" width="666.5" height="666.5"/>
