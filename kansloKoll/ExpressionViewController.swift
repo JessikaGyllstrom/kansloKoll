@@ -16,23 +16,27 @@ class ExpressionViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     let images = [
-          ["glad" ,"Glad","Beskriv en glad person","sound-01"],
-          ["ledsen" ,"Ledsen","Beskriv en ledsen person","sound-02"],
-          ["förvånad" ,"Förvånad","Beskriv en förvånad person","sound-03"],
-          ["förvirrad" ,"Förvirrad","Beskriv en förvirrad person","sound-01"],
-          ["trött" ,"Trött","Beskriv en trött person","sound-02"],
-          ["sjuk" ,"Sjuk","Beskriv en sjuk person","sound-03"],
-          ["lugn" ,"Lugn","Beskriv en lugn person","sound-01"],
-          ["arg" , "Arg" , "Beskriv en arg person" , "sound-02"],
-          ["glad2" , "Glad" , "Beskriv en glad person" , "sound-02"],
-          ["ledsen2" , "Ledsen" , "Beskriv en ledsen person" , "sound-02"],
-          ["förvånad2" , "Förvånad" , "Beskriv en förvånad person" , "sound-02"],
-          ["förvirrad2" , "Förvirrad" , "Beskriv en förvirrad person" , "sound-02"],
-          ["trött2" , "Trött" , "Beskriv en trött person" , "sound-02"],
-          ["sjuk2" , "Sjuk" , "Beskriv en sjuk person" , "sound-02"],
-          ["lugn2" , "Lugn" , "Beskriv en lugn person" , "sound-02"],
-          ["arg2" , "Arg" , "Beskriv en arg person" , "sound-02"],
+          ["happy" ,"Glad","Beskriv en glad person","sound-01"],
+          ["sad" ,"Ledsen","Beskriv en ledsen person","sound-02"],
+          ["surprised" ,"Förvånad","Beskriv en förvånad person","sound-03"],
+          ["confused" ,"Förvirrad","Beskriv en förvirrad person","sound-01"],
+          ["tierd" ,"Trött","Beskriv en trött person","sound-02"],
+          ["sick" ,"Sjuk","Beskriv en sjuk person","sound-03"],
+          ["calm" ,"Lugn","Beskriv en lugn person","sound-01"],
+          ["angry" , "Arg" , "Beskriv en arg person" , "sound-02"],
+          ["happy2" , "Glad" , "Beskriv en glad person" , "sound-02"],
+          ["sad2" , "Ledsen" , "Beskriv en ledsen person" , "sound-02"],
+          ["surprised2" , "Förvånad" , "Beskriv en förvånad person" , "sound-02"],
+          ["confused2" , "Förvirrad" , "Beskriv en förvirrad person" , "sound-02"],
+          ["tierd2" , "Trött" , "Beskriv en trött person" , "sound-02"],
+          ["sick2" , "Sjuk" , "Beskriv en sjuk person" , "sound-02"],
+          ["calm2" , "Lugn" , "Beskriv en lugn person" , "sound-02"],
+          ["angry2" , "Arg" , "Beskriv en arg person" , "sound-02"],
           ]
+    
+    override func viewDidAppear(_ animated: Bool) {
+            setButtonBgImage(button: buttonImageView , UIImageNamed : "happy")
+        }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,7 +63,7 @@ class ExpressionViewController: UIViewController {
 
         button.layer.cornerRadius = 10
         button.layer.borderWidth = 7
-        button.layer.borderColor = UIColor.red.cgColor
+        button.layer.borderColor = UIColor.clear.cgColor
           }
       func PlaySound(currentPlay: String!){
         let url = Bundle.main.url(forResource: currentPlay, withExtension: "mp3")

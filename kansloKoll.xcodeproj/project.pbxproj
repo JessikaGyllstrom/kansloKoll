@@ -20,6 +20,8 @@
 		49A0631325A4F631000514F1 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0631225A4F631000514F1 /* WinnerViewController.swift */; };
 		49A0631625A4F69D000514F1 /* Winner2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0631525A4F69C000514F1 /* Winner2ViewController.swift */; };
 		49A0631925A4F6B2000514F1 /* ExpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0631825A4F6B1000514F1 /* ExpressionViewController.swift */; };
+		49A0631D25A50BC9000514F1 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49A0631C25A50BC9000514F1 /* win.mp3 */; };
+		49A0632025A50BDC000514F1 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49A0631F25A50BDC000514F1 /* beep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		49A0631225A4F631000514F1 /* WinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
 		49A0631525A4F69C000514F1 /* Winner2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Winner2ViewController.swift; sourceTree = "<group>"; };
 		49A0631825A4F6B1000514F1 /* ExpressionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionViewController.swift; sourceTree = "<group>"; };
+		49A0631C25A50BC9000514F1 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		49A0631F25A50BDC000514F1 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 				49A0631225A4F631000514F1 /* WinnerViewController.swift */,
 				49A0631525A4F69C000514F1 /* Winner2ViewController.swift */,
 				49A0631825A4F6B1000514F1 /* ExpressionViewController.swift */,
+				49A0631F25A50BDC000514F1 /* beep.wav */,
 				49A0630025A4F428000514F1 /* Assets.xcassets */,
 				44265F1225A62228004D98B1 /* beep.mp3 */,
 				49A0630225A4F428000514F1 /* LaunchScreen.storyboard */,
+				49A0631C25A50BC9000514F1 /* win.mp3 */,
 				49A0630525A4F428000514F1 /* Info.plist */,
 			);
 			path = kansloKoll;
@@ -145,10 +151,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A0632025A50BDC000514F1 /* beep.wav in Resources */,
 				49A0630425A4F428000514F1 /* LaunchScreen.storyboard in Resources */,
 				44265F1325A62228004D98B1 /* beep.mp3 in Resources */,
 				49A0630125A4F428000514F1 /* Assets.xcassets in Resources */,
 				49A062FF25A4F426000514F1 /* Main.storyboard in Resources */,
+				49A0631D25A50BC9000514F1 /* win.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
