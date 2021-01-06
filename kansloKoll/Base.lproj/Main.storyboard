@@ -318,13 +318,6 @@
                                     <segue destination="pnM-dX-fYT" kind="show" id="h5s-y2-WAv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJ6-Kg-5LA">
-                                <rect key="frame" x="20" y="209" width="374" height="290"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="randomImageBtnPress:" destination="rxe-xB-Zdb" eventType="touchUpInside" id="5aC-7i-Cyb"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tryck på skärmen för att starta" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mc-mD-xJ6">
                                 <rect key="frame" x="20" y="665" width="374" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -339,9 +332,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJ6-Kg-5LA">
+                                <rect key="frame" x="20" y="226.5" width="374" height="443"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="443" id="Fz8-Fq-eXH"/>
+                                    <constraint firstAttribute="width" constant="374" id="JcE-dt-XrO"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="randomImageBtnPress:" destination="rxe-xB-Zdb" eventType="touchUpInside" id="5aC-7i-Cyb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZM2-a9-jef"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="mJ6-Kg-5LA" firstAttribute="centerY" secondItem="MqR-3p-lTB" secondAttribute="centerY" id="Bne-EK-oVK"/>
+                            <constraint firstItem="ZM2-a9-jef" firstAttribute="trailing" secondItem="mJ6-Kg-5LA" secondAttribute="trailing" constant="20" id="Wwc-Tb-42d"/>
+                            <constraint firstItem="mJ6-Kg-5LA" firstAttribute="leading" secondItem="ZM2-a9-jef" secondAttribute="leading" constant="20" id="dsl-fA-YMj"/>
+                            <constraint firstItem="mJ6-Kg-5LA" firstAttribute="centerX" secondItem="MqR-3p-lTB" secondAttribute="centerX" id="t4j-lw-2E6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kp1-dO-8AW"/>
                     <connections>
