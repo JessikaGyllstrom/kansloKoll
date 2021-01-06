@@ -35,7 +35,7 @@ class ExpressionViewController: UIViewController {
           ]
     
     override func viewDidAppear(_ animated: Bool) {
-            setButtonBgImage(button: buttonImageView , UIImageNamed : "happy")
+        setButtonImage(button: buttonImageView , UIImageNamed : "happy")
         }
     
     override func viewDidLoad() {

@@ -281,7 +281,7 @@ func answerCorrect()
     
     func winner()
     {
-    performSegue(withIdentifier: "winner", sender: self)
+    performSegue(withIdentifier: "winner2", sender: self)
     }
     
     if score == 10{
