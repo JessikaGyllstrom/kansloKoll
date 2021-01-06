@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44265F1325A62228004D98B1 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44265F1225A62228004D98B1 /* beep.mp3 */; };
+		44265F1725A62331004D98B1 /* PlayTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44265F1625A62331004D98B1 /* PlayTwoViewController.swift */; };
 		49A062F825A4F426000514F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A062F725A4F426000514F1 /* AppDelegate.swift */; };
 		49A062FA25A4F426000514F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A062F925A4F426000514F1 /* SceneDelegate.swift */; };
 		49A062FC25A4F426000514F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A062FB25A4F426000514F1 /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44265F1225A62228004D98B1 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		44265F1625A62331004D98B1 /* PlayTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTwoViewController.swift; sourceTree = "<group>"; };
 		49A062F425A4F426000514F1 /* kansloKoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kansloKoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A062F725A4F426000514F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A062F925A4F426000514F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 				49A062F925A4F426000514F1 /* SceneDelegate.swift */,
 				49A062FB25A4F426000514F1 /* ViewController.swift */,
 				49A062FD25A4F426000514F1 /* Main.storyboard */,
+				44265F1625A62331004D98B1 /* PlayTwoViewController.swift */,
 				49A0630F25A4F604000514F1 /* PlayViewController.swift */,
 				49A0630C25A4F5E0000514F1 /* StartViewController.swift */,
 				49A0631225A4F631000514F1 /* WinnerViewController.swift */,
@@ -81,6 +86,7 @@
 				49A0631825A4F6B1000514F1 /* ExpressionViewController.swift */,
 				49A0631F25A50BDC000514F1 /* beep.wav */,
 				49A0630025A4F428000514F1 /* Assets.xcassets */,
+				44265F1225A62228004D98B1 /* beep.mp3 */,
 				49A0630225A4F428000514F1 /* LaunchScreen.storyboard */,
 				49A0631C25A50BC9000514F1 /* win.mp3 */,
 				49A0630525A4F428000514F1 /* Info.plist */,
@@ -147,6 +153,7 @@
 			files = (
 				49A0632025A50BDC000514F1 /* beep.wav in Resources */,
 				49A0630425A4F428000514F1 /* LaunchScreen.storyboard in Resources */,
+				44265F1325A62228004D98B1 /* beep.mp3 in Resources */,
 				49A0630125A4F428000514F1 /* Assets.xcassets in Resources */,
 				49A062FF25A4F426000514F1 /* Main.storyboard in Resources */,
 				49A0631D25A50BC9000514F1 /* win.mp3 in Resources */,
@@ -168,6 +175,7 @@
 				49A0631625A4F69D000514F1 /* Winner2ViewController.swift in Sources */,
 				49A062FA25A4F426000514F1 /* SceneDelegate.swift in Sources */,
 				49A0631325A4F631000514F1 /* WinnerViewController.swift in Sources */,
+				44265F1725A62331004D98B1 /* PlayTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

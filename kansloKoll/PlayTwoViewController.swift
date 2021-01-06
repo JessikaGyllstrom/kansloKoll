@@ -1,14 +1,14 @@
 //
-//  PlayViewController.swift
-//  emo
+//  PlayTwoViewController.swift
+//  kansloKoll
 //
-//  Created by MadJackChurchill on 2020-12-28.
+//  Created by MadJackChurchill on 2021-01-06.
 //
 
 import UIKit
 import AVFoundation
 
-class Feelings
+class FeelingsTwo
 {
     
     var name = ""
@@ -20,7 +20,7 @@ class Feelings
     }
 }
 
-class PlayViewController: UIViewController {
+class PlayTwoViewController: UIViewController {
 
     var correctNumber = 0
 
@@ -58,14 +58,14 @@ class PlayViewController: UIViewController {
         button7.layer.cornerRadius = 20
         button8.layer.cornerRadius = 20
         
-        känslor.append(Feelings(na: "Arg", im: "angry"))
-        känslor.append(Feelings(na: "Förvånad", im: "surprised"))
-        känslor.append(Feelings(na: "Glad", im: "happy"))
-        känslor.append(Feelings(na: "Ledsen", im: "sad"))
-        känslor.append(Feelings(na: "Lugn", im: "calm"))
-        känslor.append(Feelings(na: "Sjuk", im: "sick"))
-        känslor.append(Feelings(na: "Trött", im: "tierd"))
-        känslor.append(Feelings(na: "Förvirrad", im: "confused"))
+        känslor.append(Feelings(na: "Arg", im: "angry2"))
+        känslor.append(Feelings(na: "Förvånad", im: "surprised2"))
+        känslor.append(Feelings(na: "Glad", im: "happy2"))
+        känslor.append(Feelings(na: "Ledsen", im: "sad2"))
+        känslor.append(Feelings(na: "Lugn", im: "calm2"))
+        känslor.append(Feelings(na: "Sjuk", im: "sick2"))
+        känslor.append(Feelings(na: "Trött", im: "tierd2"))
+        känslor.append(Feelings(na: "Förvirrad", im: "confused2"))
 
     
             newRound()

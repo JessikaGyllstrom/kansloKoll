@@ -30,7 +30,7 @@
                                     <segue destination="81r-QH-NNf" kind="presentation" id="acc-e9-cYR"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy2" translatesAutoresizingMaskIntoConstraints="NO" id="TUV-LP-MqJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="TUV-LP-MqJ">
                                 <rect key="frame" x="38" y="200" width="338" height="352"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yK-y9-rfd">
@@ -106,7 +106,7 @@
                                 <rect key="frame" x="49" y="147" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button" image="arg"/>
+                                <state key="normal" title="Button" image="angry"/>
                                 <connections>
                                     <action selector="button1:" destination="81r-QH-NNf" eventType="touchUpInside" id="2T7-T9-eEf"/>
                                 </connections>
@@ -115,7 +115,7 @@
                                 <rect key="frame" x="49" y="270" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button" image="glad"/>
+                                <state key="normal" title="Button" image="happy"/>
                                 <connections>
                                     <action selector="Button2:" destination="81r-QH-NNf" eventType="touchUpInside" id="KRP-5n-AWo"/>
                                 </connections>
@@ -124,7 +124,7 @@
                                 <rect key="frame" x="49" y="398" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button" image="sjuk"/>
+                                <state key="normal" title="Button" image="sick"/>
                                 <connections>
                                     <action selector="Button3:" destination="81r-QH-NNf" eventType="touchUpInside" id="dnK-YJ-qPO"/>
                                 </connections>
@@ -142,7 +142,7 @@
                                 <rect key="frame" x="258" y="270" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="trött"/>
+                                <state key="normal" image="tierd"/>
                                 <connections>
                                     <action selector="Button5:" destination="81r-QH-NNf" eventType="touchUpInside" id="3Ef-ux-gdf"/>
                                 </connections>
@@ -151,7 +151,7 @@
                                 <rect key="frame" x="258" y="530" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="förvirrad"/>
+                                <state key="normal" image="confused"/>
                                 <connections>
                                     <action selector="Button6:" destination="81r-QH-NNf" eventType="touchUpInside" id="drC-GG-ezy"/>
                                 </connections>
@@ -160,7 +160,7 @@
                                 <rect key="frame" x="258" y="398" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="förvånad"/>
+                                <state key="normal" image="surprised"/>
                                 <connections>
                                     <action selector="Button8:" destination="81r-QH-NNf" eventType="touchUpInside" id="8Bw-gY-Lk2"/>
                                 </connections>
@@ -174,14 +174,14 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="homekit" catalog="system"/>
                                 <connections>
-                                    <segue destination="pnM-dX-fYT" kind="show" id="075-uU-xhf"/>
+                                    <segue destination="pnM-dX-fYT" kind="show" id="A4V-bo-jFZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdv-C4-MWn" userLabel="Button7">
                                 <rect key="frame" x="49" y="530" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="lugn"/>
+                                <state key="normal" image="calm"/>
                                 <connections>
                                     <action selector="Button7:" destination="81r-QH-NNf" eventType="touchUpInside" id="elw-DE-Wna"/>
                                 </connections>
@@ -190,7 +190,7 @@
                                 <rect key="frame" x="258" y="147" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="ledsen"/>
+                                <state key="normal" image="sad"/>
                                 <connections>
                                     <action selector="Button4:" destination="81r-QH-NNf" eventType="touchUpInside" id="ma8-de-ipB"/>
                                 </connections>
@@ -242,7 +242,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="c0O-GZ-tLT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stars" translatesAutoresizingMaskIntoConstraints="NO" id="c0O-GZ-tLT">
                                 <rect key="frame" x="-24" y="-23" width="513" height="942"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="942" id="Zjb-5H-g13"/>
@@ -266,7 +266,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="homekit" catalog="system"/>
                                 <connections>
-                                    <segue destination="pnM-dX-fYT" kind="show" id="pNb-rP-Cc1"/>
+                                    <segue destination="pnM-dX-fYT" kind="show" id="XpH-Bi-UGp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6K-0W-jX4">
@@ -375,7 +375,7 @@
                                 <rect key="frame" x="49" y="147" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button" image="arg2"/>
+                                <state key="normal" title="Button" image="angry2"/>
                                 <connections>
                                     <action selector="button1:" destination="saG-Ed-jaK" eventType="touchUpInside" id="AVI-W3-2it"/>
                                 </connections>
@@ -384,7 +384,7 @@
                                 <rect key="frame" x="49" y="270" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button" image="glad2"/>
+                                <state key="normal" title="Button" image="happy2"/>
                                 <connections>
                                     <action selector="Button2:" destination="saG-Ed-jaK" eventType="touchUpInside" id="h78-Vk-8Iw"/>
                                 </connections>
@@ -393,7 +393,7 @@
                                 <rect key="frame" x="49" y="398" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button" image="sjuk2"/>
+                                <state key="normal" title="Button" image="sick2"/>
                                 <connections>
                                     <action selector="Button3:" destination="saG-Ed-jaK" eventType="touchUpInside" id="kQ1-yf-sBC"/>
                                 </connections>
@@ -411,7 +411,7 @@
                                 <rect key="frame" x="258" y="270" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="trött2"/>
+                                <state key="normal" image="tierd2"/>
                                 <connections>
                                     <action selector="Button5:" destination="saG-Ed-jaK" eventType="touchUpInside" id="JSv-Fe-BPd"/>
                                 </connections>
@@ -420,7 +420,7 @@
                                 <rect key="frame" x="258" y="530" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="förvirrad2"/>
+                                <state key="normal" image="confused2"/>
                                 <connections>
                                     <action selector="Button6:" destination="saG-Ed-jaK" eventType="touchUpInside" id="mhR-VN-q29"/>
                                 </connections>
@@ -429,7 +429,7 @@
                                 <rect key="frame" x="258" y="398" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="förvånad2"/>
+                                <state key="normal" image="surprised2"/>
                                 <connections>
                                     <action selector="Button8:" destination="saG-Ed-jaK" eventType="touchUpInside" id="E0J-4V-UT7"/>
                                 </connections>
@@ -443,14 +443,14 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="homekit" catalog="system"/>
                                 <connections>
-                                    <segue destination="pnM-dX-fYT" kind="show" id="Hqj-FB-1tQ"/>
+                                    <segue destination="pnM-dX-fYT" kind="show" id="mdz-FF-Q1t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNN-ll-8x8" userLabel="Button7">
                                 <rect key="frame" x="49" y="530" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="lugn2"/>
+                                <state key="normal" image="calm2"/>
                                 <connections>
                                     <action selector="Button7:" destination="saG-Ed-jaK" eventType="touchUpInside" id="R9x-5H-KPa"/>
                                 </connections>
@@ -459,7 +459,7 @@
                                 <rect key="frame" x="258" y="147" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="ledsen2"/>
+                                <state key="normal" image="sad2"/>
                                 <connections>
                                     <action selector="Button4:" destination="saG-Ed-jaK" eventType="touchUpInside" id="Gze-tl-5pe"/>
                                 </connections>
@@ -511,7 +511,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="10p-uK-Wkb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stars" translatesAutoresizingMaskIntoConstraints="NO" id="10p-uK-Wkb">
                                 <rect key="frame" x="-24" y="-23" width="513" height="942"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="513" id="2Be-ca-yNu"/>
@@ -559,31 +559,31 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="h5s-y2-WAv"/>
+        <segue reference="mdz-FF-Q1t"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="arg" width="600" height="600"/>
-        <image name="arg2" width="1000" height="1000"/>
-        <image name="förvånad" width="600" height="600"/>
-        <image name="förvånad2" width="500" height="500"/>
-        <image name="förvirrad" width="600" height="600"/>
-        <image name="förvirrad2" width="500" height="500"/>
-        <image name="glad" width="600" height="600"/>
-        <image name="glad2" width="1000" height="1000"/>
+        <image name="Stars" width="666.5" height="666.5"/>
+        <image name="angry" width="200" height="200"/>
+        <image name="angry2" width="333" height="333"/>
+        <image name="calm" width="200" height="200"/>
+        <image name="calm2" width="333" height="333"/>
+        <image name="confused" width="200" height="200"/>
+        <image name="confused2" width="333" height="333"/>
+        <image name="happy" width="200" height="200"/>
         <image name="happy2" width="333" height="333"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
-        <image name="ledsen" width="600" height="600"/>
-        <image name="ledsen2" width="1000" height="1000"/>
-        <image name="lugn" width="600" height="600"/>
-        <image name="lugn2" width="500" height="500"/>
+        <image name="logo" width="515" height="449"/>
         <image name="masks" width="200" height="200"/>
         <image name="rubicscube" width="200" height="200"/>
-        <image name="sjuk" width="600" height="600"/>
-        <image name="sjuk2" width="500" height="500"/>
-        <image name="stars" width="666.5" height="666.5"/>
+        <image name="sad" width="200" height="200"/>
+        <image name="sad2" width="333" height="333"/>
+        <image name="sick" width="200" height="200"/>
+        <image name="sick2" width="333" height="333"/>
+        <image name="surprised" width="200" height="200"/>
+        <image name="surprised2" width="333" height="333"/>
         <image name="thumbs" width="200" height="200"/>
-        <image name="trött" width="300" height="300"/>
-        <image name="trött2" width="500" height="500"/>
+        <image name="tierd" width="200" height="200"/>
+        <image name="tierd2" width="333" height="333"/>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
