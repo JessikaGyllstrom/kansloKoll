@@ -34,6 +34,10 @@ class ExpressionViewController: UIViewController {
           ["angry2" , "Arg" , "Beskriv en arg person" , "sound-02"],
           ]
     
+    override func viewDidAppear(_ animated: Bool) {
+            setButtonBgImage(button: buttonImageView , UIImageNamed : "happy")
+        }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
