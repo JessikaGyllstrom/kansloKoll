@@ -5,6 +5,9 @@
 //  Created by MadJackChurchill on 2021-01-06.
 //
 
+import UIKit
+import AVFoundation
+
 class FeelingsTwo
 {
     
@@ -55,14 +58,14 @@ class PlayTwoViewController: UIViewController {
         button7.layer.cornerRadius = 20
         button8.layer.cornerRadius = 20
         
-        känslor.append(Feelings(na: "Arg", im: "angry"))
-        känslor.append(Feelings(na: "Förvånad", im: "surprised"))
-        känslor.append(Feelings(na: "Glad", im: "happy"))
-        känslor.append(Feelings(na: "Ledsen", im: "sad"))
-        känslor.append(Feelings(na: "Lugn", im: "calm"))
-        känslor.append(Feelings(na: "Sjuk", im: "sick"))
-        känslor.append(Feelings(na: "Trött", im: "tierd"))
-        känslor.append(Feelings(na: "Förvirrad", im: "confused"))
+        känslor.append(Feelings(na: "Arg", im: "angry2"))
+        känslor.append(Feelings(na: "Förvånad", im: "surprised2"))
+        känslor.append(Feelings(na: "Glad", im: "happy2"))
+        känslor.append(Feelings(na: "Ledsen", im: "sad2"))
+        känslor.append(Feelings(na: "Lugn", im: "calm2"))
+        känslor.append(Feelings(na: "Sjuk", im: "sick2"))
+        känslor.append(Feelings(na: "Trött", im: "tierd2"))
+        känslor.append(Feelings(na: "Förvirrad", im: "confused2"))
 
     
             newRound()
