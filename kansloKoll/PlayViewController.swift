@@ -58,14 +58,14 @@ class PlayViewController: UIViewController {
         button7.layer.cornerRadius = 20
         button8.layer.cornerRadius = 20
         
-        känslor.append(Feelings(na: "Arg", im: "arg"))
-        känslor.append(Feelings(na: "Förvånad", im: "förvånad"))
-        känslor.append(Feelings(na: "Glad", im: "glad"))
-        känslor.append(Feelings(na: "Ledsen", im: "ledsen"))
-        känslor.append(Feelings(na: "Lugn", im: "lugn"))
-        känslor.append(Feelings(na: "Sjuk", im: "sjuk"))
-        känslor.append(Feelings(na: "Trött", im: "trött"))
-        känslor.append(Feelings(na: "Förvirrad", im: "förvirrad"))
+        känslor.append(Feelings(na: "Arg", im: "angry"))
+        känslor.append(Feelings(na: "Förvånad", im: "surprised"))
+        känslor.append(Feelings(na: "Glad", im: "happy"))
+        känslor.append(Feelings(na: "Ledsen", im: "sad"))
+        känslor.append(Feelings(na: "Lugn", im: "calm"))
+        känslor.append(Feelings(na: "Sjuk", im: "sick"))
+        känslor.append(Feelings(na: "Trött", im: "tierd"))
+        känslor.append(Feelings(na: "Förvirrad", im: "confused"))
 
     
             newRound()
@@ -252,7 +252,7 @@ func answerCorrect()
 
     audioPlayer.play()
     do {
-        self.audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "beep", ofType: "wav")!))
+        self.audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "beep", ofType: "mp3")!))
     }
     catch{
         print(error)
