@@ -342,6 +342,14 @@
                                     <action selector="randomImageBtnPress:" destination="rxe-xB-Zdb" eventType="touchUpInside" id="5aC-7i-Cyb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHk-a5-wya">
+                                <rect key="frame" x="166" y="770" width="82" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="switchSound:" destination="rxe-xB-Zdb" eventType="touchUpInside" id="BI5-Ka-G0u"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZM2-a9-jef"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
@@ -355,6 +363,7 @@
                     <navigationItem key="navigationItem" id="kp1-dO-8AW"/>
                     <connections>
                         <outlet property="buttonImageView" destination="mJ6-Kg-5LA" id="lzk-Lc-9OF"/>
+                        <outlet property="buttonPlaySound" destination="GHk-a5-wya" id="Vgf-9c-fPP"/>
                         <outlet property="descriptionLabel" destination="5mc-mD-xJ6" id="hME-fa-ACr"/>
                         <outlet property="titleLabel" destination="mHG-ws-SKS" id="uY2-TB-qV4"/>
                     </connections>
@@ -559,7 +568,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="A4V-bo-jFZ"/>
+        <segue reference="h5s-y2-WAv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Stars" width="666.5" height="666.5"/>

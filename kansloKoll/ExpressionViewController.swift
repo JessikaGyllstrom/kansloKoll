@@ -10,10 +10,12 @@ import AVFoundation
 
 class ExpressionViewController: UIViewController {
     var player: AVAudioPlayer?
+    var isPlaySound : Bool = true
     
     @IBOutlet weak var buttonImageView: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var buttonPlaySound: UIButton!
     
     let images = [
           ["happy" ,"Glad","Beskriv en glad person","sound-01"],
@@ -43,14 +45,25 @@ class ExpressionViewController: UIViewController {
 
     }
     
+    @IBAction func switchSound(_ sender: UIButton) {
+        isPlaySound.toggle()
+        if isPlaySound {
+            buttonPlaySound.setTitle("Switch Off", for: .normal)
+        } else {
+            buttonPlaySound.setTitle("Switch On", for: .normal)
+            
+    }
+}
     @IBAction func randomImageBtnPress(_ sender: Any) {
     let randomResult = getRandomImage()
         setButtonImage(button: sender as! UIButton, UIImageNamed: randomResult[0])
         titleLabel.text = randomResult[1]
         descriptionLabel.text = randomResult[2]
         PlaySound(currentPlay: "win")
-
+        if isPlaySound {
+        PlaySound(currentPlay: randomResult[3])
     }
+}
     
     func getRandomImage() -> [String]{
         if let showImage = images.randomElement() {
