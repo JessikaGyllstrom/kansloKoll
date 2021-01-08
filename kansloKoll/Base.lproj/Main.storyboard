@@ -343,9 +343,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHk-a5-wya">
-                                <rect key="frame" x="166" y="770" width="82" height="60"/>
+                                <rect key="frame" x="143" y="762" width="129" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button for sound"/>
                                 <connections>
                                     <action selector="switchSound:" destination="rxe-xB-Zdb" eventType="touchUpInside" id="BI5-Ka-G0u"/>
                                 </connections>

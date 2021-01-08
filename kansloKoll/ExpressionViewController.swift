@@ -61,7 +61,7 @@ class ExpressionViewController: UIViewController {
         descriptionLabel.text = randomResult[2]
         PlaySound(currentPlay: "win")
         if isPlaySound {
-        PlaySound(currentPlay: randomResult[3])
+        PlaySound(currentPlay: "win")
     }
 }
     
