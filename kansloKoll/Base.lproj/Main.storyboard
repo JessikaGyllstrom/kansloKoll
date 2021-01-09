@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -352,7 +351,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZM2-a9-jef"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" red="0.39716758618120857" green="0.56977224349975586" blue="0.44777779756634456" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="mJ6-Kg-5LA" firstAttribute="centerY" secondItem="MqR-3p-lTB" secondAttribute="centerY" id="Bne-EK-oVK"/>
                             <constraint firstItem="ZM2-a9-jef" firstAttribute="trailing" secondItem="mJ6-Kg-5LA" secondAttribute="trailing" constant="20" id="Wwc-Tb-42d"/>
@@ -593,8 +592,5 @@
         <image name="thumbs" width="200" height="200"/>
         <image name="tierd" width="200" height="200"/>
         <image name="tierd2" width="333" height="333"/>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
