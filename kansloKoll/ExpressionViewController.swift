@@ -55,15 +55,14 @@ class ExpressionViewController: UIViewController {
     }
 }
     @IBAction func randomImageBtnPress(_ sender: Any) {
-    let randomResult = getRandomImage()
+        let randomResult = getRandomImage()
         setButtonImage(button: sender as! UIButton, UIImageNamed: randomResult[0])
         titleLabel.text = randomResult[1]
         descriptionLabel.text = randomResult[2]
-        PlaySound(currentPlay: "win")
         if isPlaySound {
-        PlaySound(currentPlay: "win")
+            PlaySound(currentPlay: "win")
+        }
     }
-}
     
     func getRandomImage() -> [String]{
         if let showImage = images.randomElement() {
