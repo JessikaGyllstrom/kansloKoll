@@ -15,7 +15,7 @@ class ExpressionViewController: UIViewController {
     @IBOutlet weak var buttonImageView: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var buttonPlaySound: UIButton!
+    
     
     let images = [
           ["happy" ,"Glad","Beskriv en glad person","sound-01"],
@@ -48,9 +48,6 @@ class ExpressionViewController: UIViewController {
     @IBAction func switchSound(_ sender: UIButton) {
         isPlaySound.toggle()
         if isPlaySound {
-            buttonPlaySound.setTitle("Switch Off", for: .normal)
-        } else {
-            buttonPlaySound.setTitle("Switch On", for: .normal)
             
     }
 }

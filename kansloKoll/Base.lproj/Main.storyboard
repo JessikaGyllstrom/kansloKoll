@@ -420,14 +420,6 @@
                                     <action selector="randomImageBtnPress:" destination="rxe-xB-Zdb" eventType="touchUpInside" id="5aC-7i-Cyb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHk-a5-wya">
-                                <rect key="frame" x="143" y="762" width="129" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button for sound"/>
-                                <connections>
-                                    <action selector="switchSound:" destination="rxe-xB-Zdb" eventType="touchUpInside" id="BI5-Ka-G0u"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZM2-a9-jef"/>
                         <color key="backgroundColor" red="0.15748661759999999" green="0.35638120769999998" blue="0.30844107269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -441,7 +433,6 @@
                     <navigationItem key="navigationItem" id="kp1-dO-8AW"/>
                     <connections>
                         <outlet property="buttonImageView" destination="mJ6-Kg-5LA" id="lzk-Lc-9OF"/>
-                        <outlet property="buttonPlaySound" destination="GHk-a5-wya" id="Vgf-9c-fPP"/>
                         <outlet property="descriptionLabel" destination="5mc-mD-xJ6" id="hME-fa-ACr"/>
                         <outlet property="titleLabel" destination="mHG-ws-SKS" id="uY2-TB-qV4"/>
                     </connections>
