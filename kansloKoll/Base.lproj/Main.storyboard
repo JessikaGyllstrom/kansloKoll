@@ -388,9 +388,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebS-UV-fIK">
-                                <rect key="frame" x="6" y="21" width="87" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebS-UV-fIK">
+                                <rect key="frame" x="20" y="33" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2Jo-e5-Xgt"/>
+                                    <constraint firstAttribute="height" constant="40" id="D3U-Ye-OTC"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="homekit" catalog="system"/>
                                 <connections>
                                     <segue destination="pnM-dX-fYT" kind="show" id="h5s-y2-WAv"/>
@@ -425,9 +429,11 @@
                         <color key="backgroundColor" red="0.15748661759999999" green="0.35638120769999998" blue="0.30844107269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mJ6-Kg-5LA" firstAttribute="centerY" secondItem="MqR-3p-lTB" secondAttribute="centerY" id="Bne-EK-oVK"/>
+                            <constraint firstItem="ebS-UV-fIK" firstAttribute="top" secondItem="MqR-3p-lTB" secondAttribute="top" constant="33" id="Gcz-6q-t17"/>
                             <constraint firstItem="ZM2-a9-jef" firstAttribute="trailing" secondItem="mJ6-Kg-5LA" secondAttribute="trailing" constant="20" id="Wwc-Tb-42d"/>
                             <constraint firstItem="mJ6-Kg-5LA" firstAttribute="leading" secondItem="ZM2-a9-jef" secondAttribute="leading" constant="20" id="dsl-fA-YMj"/>
                             <constraint firstItem="mJ6-Kg-5LA" firstAttribute="centerX" secondItem="MqR-3p-lTB" secondAttribute="centerX" id="t4j-lw-2E6"/>
+                            <constraint firstItem="ebS-UV-fIK" firstAttribute="leading" secondItem="ZM2-a9-jef" secondAttribute="leading" constant="20" id="xlq-3O-NFZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kp1-dO-8AW"/>
@@ -705,7 +711,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6ia-Gj-yto"/>
+        <segue reference="h5s-y2-WAv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Stars" width="666.5" height="666.5"/>
